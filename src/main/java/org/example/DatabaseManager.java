@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
 public class DatabaseManager {
-    private static final String URL = "jdbc:mysql://localhost:3306/password_manager";
+    private static final String URL = "jdbc:mysql://host.docker.internal:3306/password_manager";
     private static final String USER = "root";
     private static final String PASSWORD = "";
 

@@ -1,1 +1,3 @@
 java -jar target/password-1.0-SNAPSHOT.jar
+
+docker run -it nume-imagine
